@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_block",
+  "name": "obj_triangle",
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_triangle",
+    "path": "sprites/spr_triangle/spr_triangle.yy",
   },
   "solid": false,
   "visible": true,
@@ -17,7 +17,7 @@
   },
   "physicsObject": true,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 2,
   "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
@@ -27,8 +27,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
+    {"x":32.0,"y":0.0,},
     {"x":64.0,"y":64.0,},
     {"x":0.0,"y":64.0,},
   ],
